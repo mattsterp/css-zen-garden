@@ -1,22 +1,23 @@
 {
-  "name": "css-zen-garden",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mattsterp/css-zen-garden.git"
-  },
-  "keywords": [
-    "css"
-  ],
-  "author": "Matthew Peters",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mattsterp/css-zen-garden/issues"
-  },
-  "homepage": "https://github.com/mattsterp/css-zen-garden#readme"
+	"name": "css-zen-garden",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.html",
+	"scripts": {
+		"deploy": "gh-pages -d dist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mattsterp/css-zen-garden.git"
+	},
+	"keywords": [ "css" ],
+	"author": "Matthew Peters",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mattsterp/css-zen-garden/issues"
+	},
+	"homepage": "https://github.com/mattsterp/css-zen-garden#readme",
+	"dependencies": {
+		"gh-pages": "^2.0.0"
+	}
 }
